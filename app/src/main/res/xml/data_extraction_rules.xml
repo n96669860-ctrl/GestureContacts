@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backup configuration -->
+    <exclude domain="sharedpref" path="DeviceId.xml"/>
+    <exclude domain="database" path="app_db"/>
+</resources>
