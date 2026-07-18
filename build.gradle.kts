@@ -4,3 +4,7 @@ plugins {
     kotlin("android") version "1.9.10" apply false
     id("com.google.dagger.hilt.android") version "2.47" apply false
 }
+
+task("clean") {
+    delete(rootProject.buildDir)
+}
